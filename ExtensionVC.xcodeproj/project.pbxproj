@@ -32,6 +32,7 @@
 		18CA39701D264AD800A29305 /* HelperUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA39691D264AD800A29305 /* HelperUtil.m */; };
 		18CA39711D264AD800A29305 /* LocalPushCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA396B1D264AD800A29305 /* LocalPushCenter.m */; };
 		18CA39721D264AD800A29305 /* LXFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA396D1D264AD800A29305 /* LXFileManager.m */; };
+		18CA398C1D264D3200A29305 /* NSDate+RMCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA398A1D264D3200A29305 /* NSDate+RMCalendarLogic.m */; };
 		B8F866131D25FE1A00329712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F866121D25FE1A00329712 /* main.m */; };
 		B8F866161D25FE1A00329712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F866151D25FE1A00329712 /* AppDelegate.m */; };
 		B8F866191D25FE1A00329712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F866181D25FE1A00329712 /* ViewController.m */; };
@@ -113,6 +114,8 @@
 		18CA396D1D264AD800A29305 /* LXFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFileManager.m; sourceTree = "<group>"; };
 		18CA396E1D264AD800A29305 /* LXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMacro.h; sourceTree = "<group>"; };
 		18CA396F1D264AD800A29305 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		18CA398A1D264D3200A29305 /* NSDate+RMCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RMCalendarLogic.m"; sourceTree = "<group>"; };
+		18CA398B1D264D3200A29305 /* NSDate+RMCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RMCalendarLogic.h"; sourceTree = "<group>"; };
 		B8F8660E1D25FE1A00329712 /* ExtensionVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F866121D25FE1A00329712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8F866141D25FE1A00329712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -212,6 +215,8 @@
 		18CA39201D264AD500A29305 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
+				18CA398A1D264D3200A29305 /* NSDate+RMCalendarLogic.m */,
+				18CA398B1D264D3200A29305 /* NSDate+RMCalendarLogic.h */,
 				18CA39211D264AD500A29305 /* NSDate+Extend.h */,
 				18CA39221D264AD500A29305 /* NSDate+Extend.m */,
 			);
@@ -562,6 +567,7 @@
 				B8F866191D25FE1A00329712 /* ViewController.m in Sources */,
 				18CA395C1D264AD500A29305 /* UIViewController+Extend.m in Sources */,
 				18CA39551D264AD500A29305 /* NSDate+Extend.m in Sources */,
+				18CA398C1D264D3200A29305 /* NSDate+RMCalendarLogic.m in Sources */,
 				18CA39701D264AD800A29305 /* HelperUtil.m in Sources */,
 				B8F866161D25FE1A00329712 /* AppDelegate.m in Sources */,
 				18CA39711D264AD800A29305 /* LocalPushCenter.m in Sources */,
